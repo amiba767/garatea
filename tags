@@ -12,8 +12,10 @@ Lion	lion.py	/^class Lion(animal.Animal):$/;"	c
 __init__	animal.py	/^    def __init__(self, kind):$/;"	m	class:Animal
 __init__	farm.py	/^    def __init__(self):$/;"	m	class:Farm
 __init__	lion.py	/^    def __init__(self):$/;"	m	class:Lion
+a	kani.py	/^a=1000$/;"	v
 a	wag.py	/^a=100$/;"	v
 add_animal	farm.py	/^    def add_animal(self, animal):$/;"	m	class:Farm
+b	kani.py	/^b='kanininaritai'$/;"	v
 b	wag.py	/^b=[1,2,3]$/;"	v
 gan	wag.py	/^gan=200$/;"	v
 get_kind	animal.py	/^    def get_kind(self):$/;"	m	class:Animal
@@ -24,3 +26,4 @@ make_animal	animal_farm.py	/^def make_animal(kind):$/;"	f
 print_contents	farm.py	/^    def print_contents(self):$/;"	m	class:Farm
 rakuda	wag.py	/^def rakuda():$/;"	f
 tokyo_city	wag.py	/^tokyo_city='hogehoge'$/;"	v
+tukekuwae	lion.py	/^    def tukekuwae(self):$/;"	m	class:Lion
