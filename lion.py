@@ -5,3 +5,5 @@ class Lion(animal.Animal):
         self.kind='linon'
     def get_kind(self):
         return self.kind
+    def tukekuwae(self):
+        return 'tukekuwae desu'
